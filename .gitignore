@@ -1,1 +1,2 @@
 *.vsix
+__pycache__/

@@ -3,3 +3,5 @@ unpublished/**
 .gitignore
 images/**
 !images/icon.png
+notepadplusplus/**
+windows-terminal/**
