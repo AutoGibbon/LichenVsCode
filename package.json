@@ -1,0 +1,28 @@
+{
+	"name": "lichen",
+	"displayName": "Lichen",
+	"description": "Ultra low contrast dark theme: green-tinted near-black with muted mint, amber, teal and lavender accents.",
+	"version": "0.1.0",
+	"publisher": "autogibbon",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AutoGibbon/LichenVsCode"
+	},
+	"bugs": {
+		"url": "https://github.com/AutoGibbon/LichenVsCode/issues"
+	},
+	"keywords": ["theme", "dark", "low contrast", "muted", "green"],
+	"galleryBanner": { "color": "#0b0d0c", "theme": "dark" },
+	"engines": { "vscode": "^1.70.0" },
+	"categories": ["Themes"],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Lichen",
+				"uiTheme": "vs-dark",
+				"path": "./themes/lichen-color-theme.json"
+			}
+		]
+	}
+}
