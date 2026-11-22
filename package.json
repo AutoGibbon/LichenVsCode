@@ -2,7 +2,7 @@
 	"name": "lichen",
 	"displayName": "Lichen Low Contrast",
 	"description": "Ultra low contrast dark theme: green-tinted near-black with muted mint, amber, teal and lavender accents. Includes a matching file icon theme that labels files by extension.",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"publisher": "autogibbon",
 	"license": "MIT",
 	"icon": "images/icon.png",
@@ -13,10 +13,25 @@
 	"bugs": {
 		"url": "https://github.com/AutoGibbon/LichenVsCode/issues"
 	},
-	"keywords": ["theme", "dark", "low contrast", "muted", "green", "icon theme", "file icons"],
-	"galleryBanner": { "color": "#0b0d0c", "theme": "dark" },
-	"engines": { "vscode": "^1.70.0" },
-	"categories": ["Themes"],
+	"keywords": [
+		"theme",
+		"dark",
+		"low contrast",
+		"muted",
+		"green",
+		"icon theme",
+		"file icons"
+	],
+	"galleryBanner": {
+		"color": "#0b0d0c",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Themes"
+	],
 	"contributes": {
 		"themes": [
 			{
