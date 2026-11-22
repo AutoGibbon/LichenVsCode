@@ -1,9 +1,9 @@
-"""Generate the Lichen file icon theme: extension labels drawn as Iosevka Medium capitals, tinted by file category.
+"""Generate the Lichen file icon theme: extension labels drawn as Iosevka Bold capitals, tinted by file category.
 
-Usage: python generate.py --font Iosevka-Medium.ttf [--preview preview.html]
+Usage: python generate.py --font Iosevka-Bold.ttf [--preview preview.html]
 
 Writes icons/svg/*.svg and themes/lichen-icon-theme.json. Edit CATEGORIES, EXTENSIONS and FILE_NAMES, then rerun.
-Needs fontTools (pip install fonttools) and Iosevka-Medium.ttf from https://github.com/be5invis/Iosevka/releases.
+Needs fontTools (pip install fonttools) and Iosevka-Bold.ttf from https://github.com/be5invis/Iosevka/releases.
 """
 
 import json
@@ -20,7 +20,7 @@ SVG_DIR = ROOT / "icons" / "svg"
 THEME = ROOT / "themes" / "lichen-icon-theme.json"
 
 BG = "101312"
-DIM = 0.25
+DIM = 0.05
 
 FOLDER_COLOUR = "515c57"
 DEFAULT_COLOUR = "3c4641"

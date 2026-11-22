@@ -14,7 +14,7 @@ by category: code, markup, config, docs, data, scripts, binaries, and red for lo
 and unmapped files show a dash.
 
 To add an extension or change a colour, edit `EXTENSIONS`, `FILE_NAMES` or `CATEGORIES` in `icons/generate.py`, then
-run `python icons/generate.py --font Iosevka-Medium.ttf`. It needs `pip install fonttools` and `Iosevka-Medium.ttf`
+run `python icons/generate.py --font Iosevka-Bold.ttf`. It needs `pip install fonttools` and `Iosevka-Bold.ttf`
 from the `PkgTTF-Iosevka-*.zip` asset of an [Iosevka release](https://github.com/be5invis/Iosevka/releases), and
 rewrites `icons/svg/` and `themes/lichen-icon-theme.json`. A label wider than `MAX_WIDTH` stops the script.
 
