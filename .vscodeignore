@@ -3,6 +3,8 @@ unpublished/**
 .gitignore
 images/**
 !images/icon.png
+icons/generate.py
 notepadplusplus/**
 windows-terminal/**
 claude-code/**
+.github/**

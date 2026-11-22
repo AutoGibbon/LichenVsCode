@@ -24,6 +24,13 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/lichen-color-theme.json"
 			}
+		],
+		"iconThemes": [
+			{
+				"id": "lichen",
+				"label": "Lichen",
+				"path": "./themes/lichen-icon-theme.json"
+			}
 		]
 	}
 }

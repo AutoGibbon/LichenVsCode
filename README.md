@@ -7,6 +7,17 @@ contrast, comments around 2:1, with muted mint, amber, ochre, teal, lavender and
 
 Keywords, storage types, function calls, decorators and TypeScript type annotations are italic.
 
+## File icons
+
+Pick **Lichen** in _Preferences: File Icon Theme_. Each file shows its extension as up to 3 Iosevka capitals, tinted
+by category: code, markup, config, docs, data, scripts, binaries, and red for locks, keys and licences. JSON shows `{}`
+and unmapped files show a dash.
+
+To add an extension or change a colour, edit `EXTENSIONS`, `FILE_NAMES` or `CATEGORIES` in `icons/generate.py`, then
+run `python icons/generate.py --font Iosevka-Medium.ttf`. It needs `pip install fonttools` and `Iosevka-Medium.ttf`
+from the `PkgTTF-Iosevka-*.zip` asset of an [Iosevka release](https://github.com/be5invis/Iosevka/releases), and
+rewrites `icons/svg/` and `themes/lichen-icon-theme.json`. A label wider than `MAX_WIDTH` stops the script.
+
 ## Other apps
 
 The repository also has Lichen for these apps. They aren't part of the VS Code extension.
