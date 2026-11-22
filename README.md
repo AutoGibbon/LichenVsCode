@@ -9,6 +9,8 @@ Keywords, storage types, function calls, decorators and TypeScript type annotati
 
 ## File icons
 
+![Lichen file icons](images/icons-preview.png)
+
 Pick **Lichen** in _Preferences: File Icon Theme_. Each file shows its extension as up to 3 Iosevka capitals, tinted
 by category: code, markup, config, docs, data, scripts, binaries, and red for locks, keys and licences. JSON shows `{}`
 and unmapped files show a dash.
