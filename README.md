@@ -48,3 +48,9 @@ Add the object in `windows-terminal/lichen.json` to `"schemes"` in Windows Termi
 Copy `claude-code/lichen.json` to `%USERPROFILE%\.claude\themes\` (`~/.claude/themes/` on macOS and Linux) and pick
 Lichen in `/theme`. If the `themes` folder didn't exist yet, restart Claude Code first. Diffs and inline code keep
 Claude Code's own colours.
+
+### Junie
+
+Copy `junie/Lichen.json` to `%USERPROFILE%\.junie\themes\` (`~/.junie/themes/` on macOS and Linux, or
+`$JUNIE_HOME/themes` if `JUNIE_HOME` is set), restart Junie and pick Lichen in `/themes`. Set the terminal's own
+colour scheme separately, e.g. with the Windows Terminal scheme above.
